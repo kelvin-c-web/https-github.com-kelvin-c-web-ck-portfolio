@@ -1,4 +1,4 @@
-$primary-color: #444;
+$primary-color:#444;
 $secondary-color:#eece1a;
 $secondary2-color:#5555dbec;
 $show-home-image:true;
@@ -30,6 +30,17 @@ $background-opacity:0.9;
         }
     }
 }
+
+//   Set  text color
+// @function set-text-color($color) {
+//     @if (lightness(color) > 40) {
+//         @return #000;
+//     } @else {
+//         @return #fff;
+//     }
+// }
+
+
 // Media Query Mixins
 @mixin mediaSm {
     @media screen and (max-width: 500px) {
@@ -54,3 +65,5 @@ $background-opacity:0.9;
         @content;
     }
 }
+
+//git commit -m "added my github name"
